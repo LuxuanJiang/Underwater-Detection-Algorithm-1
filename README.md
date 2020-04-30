@@ -35,6 +35,7 @@ python train.py --model_def config/yolov3-custom.cfg --data_config config/custom
 python detect.py --image_folder data/test --model_def config/yolov3-custom.cfg --weights_path weights/yolov3_ckpt.pth --class_path data/custom/classes.names
 ```
 </details>
+
 ## 更新日志
 
 - 2020.4.29 加入了摄像头检测
