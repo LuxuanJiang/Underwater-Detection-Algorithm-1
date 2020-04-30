@@ -13,12 +13,14 @@
   
 
 * `assets`:一些样本预测图，基本不用动
+* `checkpoint`:每次训练完的模型都会放这
 * `config`:yolov3神经网络的配置文件以及.data文件
 * `data`:存放数据集的地方，里面是custom是存放自定义数据集的，里面有test.py和voc_label.py文件用来生成标签文件和数据集中的图片路径
 * `other-utils`:存放各种杂七杂八的代码，都是yolo有关的，包含之前试着写的视频检测和摄像头检测
 * `pyqt_ui`:未来打算用qt写一个界面方便使用，存放相关的.py和.ui文件
 * `requirement`:存放了运行训练、检测、测试的指令，所需依赖，权重下载文件
 * `utils`:存放关于yolo神经网络相关的方法和函数
+* `weights`:存放权重
 * `detect.py`:检测图片
 * `train.py`:训练模型
 * `test.py`:测试模型
