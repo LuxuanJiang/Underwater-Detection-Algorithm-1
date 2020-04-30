@@ -28,20 +28,23 @@
 
 ## 运行代码
 <details><summary><b>CLICK ME</b> - 运行代码</summary>
-```bash
+  
+```
 python train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data --pretrained_weights weights/darknet53.conv.74
 python test.py --weights_path weights/yolov3_ckpt_125.pth --data_config config/custom.data --class_path data/custom/classes.names --model_def config/yolov3-custom.cfg
 python train.py --model_def config/yolov3-custom.cfg --data_config config/custom.data --pretrained_weights weights/yolov3_ckpt.pth --batch_size 693 --epochs 50 --checkpoint_interval 5
 python detect.py --image_folder data/test --model_def config/yolov3-custom.cfg --weights_path weights/yolov3_ckpt.pth --class_path data/custom/classes.names
 ```
+
 </details>
 
 ## 更新日志
 
+<details><summary><b>CLICK ME</b> - 更新日志</summary>
+  
 - 2020.4.29 加入了摄像头检测
 ```diff
 + video_detect.py
 ```
 
-
-
+</details>
