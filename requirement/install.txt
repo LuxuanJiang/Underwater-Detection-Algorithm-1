@@ -1,0 +1,5 @@
+pip install pythonModuleName -i https://pypi.douban.com/simple --user
+pip install torch===1.2.0 torchvision===0.4.0 -f https://download.pytorch.org/whl/torch_stable.html -i https://pypi.douban.com/simple --user
+pip install tensorflow-gpu==2.1.0 -i https://pypi.douban.com/simple --user
+pip install -r requirements.txt -i https://pypi.douban.com/simple --user
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
