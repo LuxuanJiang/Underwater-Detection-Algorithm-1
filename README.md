@@ -1,7 +1,7 @@
 
 # Underwater-Detection-Algorithm
 
-[![Alt](https://img.shields.io/github/repo-size/Team-Coding-Like-Immortal/Underwater-Detection-Algorithm?color=blue&label=repo%20size&style=for-the-badge)](https://github.com/Team-Coding-Like-Immortal/Underwater-Detection-Algorithm/)
+[![Alt](https://img.shields.io/github/repo-size/Team-Coding-Like-Immortal/Underwater-Detection-Algorithm?style=for-the-badge)](https://github.com/Team-Coding-Like-Immortal/Underwater-Detection-Algorithm/)
 
 ## 这是大创及各种比赛所使用的yolov3-水下目标检测算法
 
