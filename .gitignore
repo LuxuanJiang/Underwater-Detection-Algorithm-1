@@ -11,5 +11,5 @@ weights/*.weights
 weights/*.pth
 weights/*.74
 __pycache__
-checkpoints
-weights
+
+
